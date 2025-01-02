@@ -1,9 +1,28 @@
 
-
+<!-- 
 <p>home works!</p>
-<h1> hello 2 </h1>
+<h1> hello 2 </h1> -->
 <!-- <a routerLink="/about"> Go to about </a> 
 <br>
 <a [routerLink]="['/' , 'about']"> Go to about again </a> --> 
 
-<a (click)="navigate()"> go to about </a>
+<!-- <a (click)="navigate()"> go to about </a> 
+<a [routerLink]="['/' , 'about' , val]"> Go to about section   </a> -->
+
+<section>
+    <img src="imgs/banner.png"/>
+     <div class="main-content">
+        <h1 class="mt-2 color-black"> Explore Amazing content </h1>
+        <a class="btn btn-lg btn-secondary mt-2"> Course</a>&nbsp;
+        <a class="btn btn-lg btn-primary mt-2"> Templates </a>
+     </div> 
+</section>
+
+<section class="courses">
+    <div clas="container">
+        <h1 class="text-center"> All Courses </h1>
+    </div>
+    <div class="row mt-5">
+        <app-courses> </app-courses>
+    </div>
+</section>
